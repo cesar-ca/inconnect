@@ -1,0 +1,78 @@
+body{
+  padding: 0;
+  overflow: hidden;
+}
+body>div{
+  overflow-x: auto;
+}
+  #leftRegister{
+    background: #0431A6;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  #leftRegisterScroll{
+    background: #0431A6;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    position: absolute;
+    left: 100;
+    right: 0;
+    top: 20;
+    bottom: 0;
+    height: 100%;
+  }
+  #leftRegister h1{
+      flex: none;
+      
+  }
+  #leftRegister p{
+    padding-bottom: 10%;
+}
+  #rightRegister{
+    margin-top: 8%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  #rightRegisterScroll{
+    margin-top: 8%;
+    overflow-y: scroll;
+    position: absolute;
+    left: 0;
+    right: 100;
+    bottom: 0;
+    height: 100%;
+  }
+  .links{
+      text-decoration: none;
+      font-weight: bold;
+      color: white;
+    }
+    .links:hover{
+        color: rgb(201, 201, 201);
+    }
+    .logo{
+        height:30em;
+    }
+    .myContainer{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .form-group{
+        margin-top: 2em;
+    }
+    .form-check{
+    margin-top: 18em;
+    margin-bottom: 2em;
+    }
+   #continue{
+       background-color: #1154FF;
+   }
+   #continue:hover{
+       opacity: 0.8;
+   }
